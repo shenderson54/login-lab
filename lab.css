@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html { 
+    background: url(assets/skullbackground.jpg) no-repeat 
+    center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+nav {
+    background-color: #f2f2f2;
+    height: 80px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    }
+
+
+
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    padding-right: 45px;
+    font-size: 10px;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+    margin-bottom: 9px;
+}
+
+button {
+    background-color: white;
+    width: 150px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    margin-right: 20px;
+    border-color: darkorange;
+    color: darkorange;
+    padding: 12px 15px ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 35px;
+    font-size: 10px;
+}
+
+.centerbox {
+    width: 355px;
+    height: 720px;
+    margin: 55px 0px 0px 630px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: black;
+    padding-left: 110px;
+    padding-top: 25px;
+    margin: 10px;
+    font-weight: 310;
+}
+
+h4 {
+    color: black;
+    padding-left: 50px;
+    margin: 10px;
+    font-weight: 280;
+}
+span {
+    color: darkorange;
+}
+
+input {
+    display: block;
+    width: 330px;
+    height: 35px;
+    border: 2px solid #f2f2f2;
+}
+
+::placeholder {
+    color: rgb(156, 151, 151);
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(226, 224, 224);
+
+}
+
+
+/* Second page .css stuff*/
+
+.topNav  {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    /*padding-right: 100px;*/
+    width: 100%;
+}
+
+#logo img {
+    width: 70px;
+    height: 70px;
+    padding-right:1385px;
+}
+
+.sideNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left:20px;
+    Width: 200px;
+    height: 870px;
+    color: white;
+    background-color: rgb(72, 70, 78);
+}
+
+.push, .push1 {
+    padding-top: 310px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
