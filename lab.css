@@ -14,6 +14,7 @@ html {
 body {
     margin: 0;
     font-family: roboto;
+    height: 100vh;
 }
 
 nav {
@@ -128,7 +129,7 @@ input {
     justify-content: space-between;
     padding-left:20px;
     Width: 200px;
-    height: 870px;
+    height: 100%;
     color: white;
     background-color: rgb(72, 70, 78);
 }
